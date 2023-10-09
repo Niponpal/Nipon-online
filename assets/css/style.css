@@ -1,0 +1,234 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* <!-- navbar start --> */
+.navbar-area .navbar {
+    background-color: rgb(187, 197, 204) !important;
+}
+
+.navbar-area .navbar .container .navbar-brand {
+text-transform: uppercase !important;
+font-size: 50px;
+font-weight: bold;
+font-style: italic;
+color: red;
+}
+
+
+.navbar-area .navbar .container .collapse ul li a{
+  color: white; 
+
+}
+
+/* <!-- navbar end --> */
+
+/* slidar-area start */
+.slidar-area .carousel .carousel-inner{
+    width: 100%;
+    height: 70vh;
+}
+
+
+.slidar-area .carousel .carousel-inner .carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+
+.slidar-area .carousel .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+
+.slidar-area .carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.slidar-area .carousel .carousel-indicators button.active{
+    color: red;
+    background-color: red;
+}
+
+
+
+/* <!-- servies areat start --> */
+.servies-area .contianer .ser-head {
+    text-align: center;
+    margin: auto;
+}
+.servies-area .contianer .row .card{
+    border: none; text-align: center;
+}
+
+.servies-area .contianer .row .card h3 a{
+   color: aqua;
+   text-decoration: none;
+   font-size: 20px;
+   text-align: center;
+} 
+
+.servies-area .contianer .row .card h5 a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+
+}
+/* <!-- servies areat end --> */
+
+/* About area start */
+.about-area  {
+    background-color: black;
+    width: 100%;
+}
+.about-area .container .a-head h2{
+    
+    padding: 15px;
+}
+.about-area .container .text-area {
+    margin: auto;
+    
+}
+.about-area .container .text-area .d-flex ul li {
+    list-style: none;
+    left: 0px;
+}
+
+.about-area .container .text-area .d-flex ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+/* About area end */
+
+/* pakages area start */
+
+.pakages-area .pak-head {
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.pakages-area .container .row .card .main-logo {
+    width: 200px;
+    height: 130px;
+    background-color: rgb(16, 206, 231);
+ }
+
+ .pakages-area .container .row .card .main-logo .logo {
+    width:150px ;
+    height: 150px;
+    background-color:rgb(16, 206, 231);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -40% !important;
+    border: 5px solid white;
+    
+ }
+
+
+ .pakages-area .container .row .card  .logo .text {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+       
+ }
+
+
+ .pakages-area .container .row .card .main-logo .text h1 {
+   text-align: center;
+  
+ }
+
+ .pakages-area .container .row .card .contact {
+    background-color: black;
+    width: 200px;
+    height: 130px;
+
+ }
+
+
+ .pakages-area .container .row .card .contact .text {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+ }
+
+ .pakages-area .container .row .card {
+    border: none;
+    
+ }
+
+ .pakages-area .container .row .card .contact .text .btn {
+    background-color: orange;
+    border: 2px solid black;
+ }
+
+ .pakages-area .container .row .card .contact .text .btn a{
+    color: white;
+    text-decoration: none;
+ }
+
+ .pakages-area .container .row .card .contact .text .btn a:hover{
+    color: red;
+ }
+/* pakages area end */
+
+
+
+/* <!-- Contacat area start --> */
+
+
+.contact-area  {
+    background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+}
+
+
+.contact-area .container .logo {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    
+  
+}
+.contact-area .container .logo .icon {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 4px solid white;
+}
+
+.contact-area .container  .text h1{
+    text-align: center;
+    padding-top: 15px;
+    font-style: italic;
+}
+.contact-area .container .logo{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+ 
+
+
+
+
+
+
+
+

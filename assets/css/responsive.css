@@ -1,0 +1,31 @@
+@media only screen and (max-width:768px){
+    .salider-area .container {
+        width: auto !important;
+    }
+}
+
+
+@media only screen and (max-width:480px){
+    .salider-area .container {
+        width: auto !important;
+    }
+}
+
+@media only screen and (max-width:780px) { 
+    .about-area .container .text-area {
+        width: auto !important;
+       overflow: hidden;
+        text-align: center !important;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+    .pakages-area .container .row .card {
+        width: auto !important;
+        align-items: center;
+        margin: auto !important;
+        justify-content: center;
+    }
+}
+
